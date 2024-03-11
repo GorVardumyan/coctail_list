@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="h1">
+            <h1>Cocktail List</h1>
+        </div>
+        <form id="searchForm">
+            <div class="input_block">
+                <input type="text" id="searchInput" placeholder="Enter your search query">
+                <button type="submit" id="submit">Search</button>
+            </div>
+        </form>
+    </div>
+    
+   <div class="display_none" id="display_none">
+        <div class="flex">
+            <img src="" alt="" id="display_img" class="img_class">
+            <div class="text">
+                <img src="/icons8-close-26.png" alt="" class="close" id="close">
+                <h1 id="h1"></h1>
+                <h3 id="h2"></h3>
+                <div class="ingredients">
+                    <h3 class="h3_title" id="h3_title">Ingredients</h3>
+                    <div class="ul_li" id="ul_li">
+
+                    </div>
+                </div>
+                <div class="instructions">
+                    <h2 class="instructions_title">Instructions</h2>
+                    <p id="instrucion"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cocktail_List"></div>
+   
+    <script src="/script.js"></script>
+</body>
+</html>
