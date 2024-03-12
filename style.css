@@ -8,6 +8,10 @@ body{
     display: flex;
 }
 
+.input_block{
+    margin-right: 50px;
+    display: flex;
+}
 .h1{
     margin: 0 auto;
 }

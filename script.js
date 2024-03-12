@@ -91,6 +91,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     close.addEventListener('click', function () {
                         display_none.style.display = 'none';
                         cocktail_List.style.display = 'block';
+                        
                     })
 
                 });
